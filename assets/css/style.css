@@ -416,7 +416,7 @@ h6 {
   color: #fff;
 }
 
-#hero h2 {
+#hero h2 ,.heroFin{
   color: #fff;
   margin: 10px 0 0 0;
   font-size: 24px;
