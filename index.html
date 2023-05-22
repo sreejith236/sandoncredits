@@ -53,7 +53,7 @@
       <h1 class="logo me-auto">
         <a href="index.html">
           <img src="./assets/img/sandon-icon.png">
-          <span class="d-sm-inline d-none">Sandon Credit<span class="logo-suffix">.</span></span>
+          <span class="d-sm-inline d-none">Sandon Credit Society<span class="logo-suffix">.</span></span>
         </a>
         <!-- <a href="index.html">Sandon Credit<span>.</span></a> -->
       </h1>
@@ -207,7 +207,7 @@
             <div class="row">
 
               <div class="col-lg-6 order-2 order-lg-1 text-center" data-aos="fade-up" data-aos-delay="200">
-                <img src="assets/img/tabs-1.jpg" alt="" class="img-fluid">
+                <img src="assets/img/flex_image/Why_choose_Us-2.webp" alt="" class="img-fluid">
               </div>
               <div class="col-lg-6 order-1 order-lg-2 mt-3 mt-lg-0" data-aos="fade-up" data-aos-delay="100">
                 <div class="content">
@@ -256,7 +256,7 @@
         <div class="row">
           <div class="col-lg-6 order-1 order-lg-1" data-aos="zoom-in" data-aos-delay="100">
             <div class="services-img">
-              <img src="assets/img/tabs-4.jpg" alt="">
+              <img src="assets/img/tabs-4.jpg" id="deposit-image" alt=""  >
             </div>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-2 content feture-tabs" data-aos="fade-up" data-aos-delay="200">
@@ -269,16 +269,16 @@
 
             <ul class="nav nav-pills mb-3" role="tablist">
               <li>
-                <a class="nav-link active" data-bs-toggle="pill" href="#deposit1" aria-selected="false" role="tab" tabindex="-1">Recurring Deposit</a>
+                <a class="nav-link active" data-bs-toggle="pill" href="#deposit1" onclick="changeImage('assets/img/tabs-4.jpg', 'deposit-image')" aria-selected="false" role="tab" tabindex="-1">Recurring Deposit</a>
               </li>
               <li>
-                <a class="nav-link " data-bs-toggle="pill" href="#deposit2" aria-selected="true" role="tab">Daily Deposit</a>
+                <a class="nav-link " data-bs-toggle="pill" href="#deposit2" aria-selected="true" role="tab" onclick="changeImage('assets/img/flex_image/deposit/DAILY_DEPOSIT.webp', 'deposit-image')">Daily Deposit</a>
               </li>
               <li>
-                <a class="nav-link" data-bs-toggle="pill" href="#deposit3" aria-selected="false" role="tab" tabindex="-1">Savings Deposit</a>
+                <a class="nav-link" data-bs-toggle="pill" href="#deposit3" aria-selected="false" role="tab" tabindex="-1" onclick="changeImage('assets/img/flex_image/deposit/SAVINGS_DEPOSIT.webp', 'deposit-image')">Savings Deposit</a>
               </li>
               <li>
-                <a class="nav-link" data-bs-toggle="pill" href="#deposit4" aria-selected="false" role="tab" tabindex="-1">Fixed Deposit</a>
+                <a class="nav-link" data-bs-toggle="pill" href="#deposit4" aria-selected="false" role="tab" tabindex="-1" onclick="changeImage('assets/img/flex_image/deposit/FIXED_DEPOSIT.webp', 'deposit-image')">Fixed Deposit</a>
               </li>
             </ul>
             <div class="tab-content">
@@ -346,7 +346,7 @@
         <div class="row">
           <div class="col-lg-6 order-1 order-lg-2  " data-aos="zoom-in" data-aos-delay="100">
             <div class="services-img">
-              <img src="assets/img/tabs-4.jpg" alt="">
+              <img src="assets/img/flex_image/Investments/MONEY_BASIC_PLAN.webp" alt="" id="investment-image">
             </div>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content feature-white-tabs" data-aos="fade-up" data-aos-delay="200">
@@ -356,16 +356,16 @@
               accounts.Our savings accounts offer competitive interest rates and flexible withdrawal options, so you can
               access your funds when you need them.
             </p>
-            <ul class="nav nav-pills mb-3" role="tablist">
+            <ul class="nav nav-pills mb-3" role="tablist"> 
               
               <li>
-                <a class="nav-link active" data-bs-toggle="pill" href="#invest1" aria-selected="true" role="tab" >Money Basic Plan</a>
+                <a class="nav-link active" data-bs-toggle="pill" href="#invest1" aria-selected="true" role="tab" onclick="changeImage('assets/img/flex_image/Investments/MONEY_BASIC_PLAN.webp', 'investment-image')">Money Basic Plan</a>
               </li>
               <li>
-                <a class="nav-link" data-bs-toggle="pill" href="#invest2" aria-selected="false" role="tab" tabindex="-1">Monthly Income Plan</a>
+                <a class="nav-link" data-bs-toggle="pill" href="#invest2" aria-selected="false" role="tab" tabindex="-1" onclick="changeImage('assets/img/flex_image/Investments/MONTHLY_INCOME_PLAN.webp', 'investment-image')">Monthly Income Plan</a>
               </li>
               <li>
-                <a class="nav-link" data-bs-toggle="pill" href="#invest3" aria-selected="false" role="tab" tabindex="-1">Chit Fund Schemas</a>
+                <a class="nav-link" data-bs-toggle="pill" href="#invest3" aria-selected="false" role="tab" tabindex="-1" onclick="changeImage('assets/img/flex_image/Investments/CHIT_FUND_SCHEMAS.webp', 'investment-image')">Chit Fund Schemas</a>
               </li>
             </ul>
             <div class="tab-content">
@@ -422,7 +422,7 @@
         <div class="row">
           <div class="col-lg-6 order-1 order-lg-1" data-aos="zoom-in" data-aos-delay="100">
             <div class="services-img">
-              <img src="assets/img/tabs-4.jpg" alt="">
+              <img src="assets/img/flex_image/Insurance/LIFE_INSURANCE.webp" alt="" id="insurance-image">
             </div>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-2 content feture-tabs" data-aos="fade-up" data-aos-delay="200">
@@ -435,13 +435,13 @@
             <ul class="nav nav-pills mb-3" role="tablist">
               
               <li>
-                <a class="nav-link active" data-bs-toggle="pill" href="#insurance1" aria-selected="true" role="tab" >Life Insurance</a>
+                <a class="nav-link active" data-bs-toggle="pill" href="#insurance1" aria-selected="true" role="tab" onclick="changeImage('assets/img/flex_image/Insurance/LIFE_INSURANCE.webp', 'insurance-image')">Life Insurance</a>
               </li>
               <li>
-                <a class="nav-link" data-bs-toggle="pill" href="#insurance2" aria-selected="false" role="tab" tabindex="-1">Health Insurance</a>
+                <a class="nav-link" data-bs-toggle="pill" href="#insurance2" aria-selected="false" role="tab" tabindex="-1" onclick="changeImage('assets/img/flex_image/Insurance/HEALTH_INSURANCE.webp', 'insurance-image')">Health Insurance</a>
               </li>
               <li>
-                <a class="nav-link" data-bs-toggle="pill" href="#insurance3" aria-selected="false" role="tab" tabindex="-1">Vehicle Insurance</a>
+                <a class="nav-link" data-bs-toggle="pill" href="#insurance3" aria-selected="false" role="tab" tabindex="-1" onclick="changeImage('assets/img/flex_image/Insurance/VEHICLE_INSURANCE.webp', 'insurance-image')">Vehicle Insurance</a>
               </li>
             </ul>
             <div class="tab-content">
@@ -497,7 +497,7 @@
         <div class="row">
           <div class="col-lg-6 order-2 order-lg-2  " data-aos="zoom-in" data-aos-delay="100">
             <div class="services-img">
-              <img src="assets/img/tabs-4.jpg" alt="">
+              <img src="assets/img/flex_image/secured_loan/GOLD_LOAN.webp" alt="" id="secured-image">
             </div>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-1 order-lg-1 content feature-white-tabs" data-aos="fade-up" data-aos-delay="200">
@@ -509,13 +509,13 @@
             </p>
             <ul class="nav nav-pills mb-3" role="tablist">
               <li>
-                <a class="nav-link active" data-bs-toggle="pill" href="#loan1" aria-selected="false" role="tab" tabindex="-1">Gold Loan</a>
+                <a class="nav-link active" data-bs-toggle="pill" href="#loan1" aria-selected="false" role="tab" tabindex="-1" onclick="changeImage('assets/img/flex_image/secured_loan/GOLD_LOAN.webp', 'secured-image')">Gold Loan</a>
               </li>
               <li>
-                <a class="nav-link " data-bs-toggle="pill" href="#loan2" aria-selected="true" role="tab">Home Loan</a>
+                <a class="nav-link " data-bs-toggle="pill" href="#loan2" aria-selected="true" role="tab" onclick="changeImage('assets/img/flex_image/secured_loan/HOME_LOAN.webp', 'secured-image')">Home Loan</a>
               </li>
               <li>
-                <a class="nav-link" data-bs-toggle="pill" href="#loan3" aria-selected="false" role="tab" tabindex="-1">Vehicle Loan</a>
+                <a class="nav-link" data-bs-toggle="pill" href="#loan3" aria-selected="false" role="tab" tabindex="-1" onclick="changeImage('assets/img/flex_image/secured_loan/VEHICLE_LOAN.webp', 'secured-image')">Vehicle Loan</a>
               </li>
               
             </ul>
@@ -571,7 +571,7 @@
         <div class="row">
           <div class="col-lg-6 order-1 order-lg-1" data-aos="zoom-in" data-aos-delay="100">
             <div class="services-img">
-              <img src="assets/img/tabs-4.jpg" alt="">
+              <img src="assets/img/flex_image/unSecured_loan/GROUP_LOAN.webp" alt="" id="un-secured-image">
             </div>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-2 content feture-tabs" data-aos="fade-up" data-aos-delay="200">
@@ -584,13 +584,13 @@
             <ul class="nav nav-pills mb-3" role="tablist">
               
               <li>
-                <a class="nav-link active" data-bs-toggle="pill" href="#secured1" aria-selected="true" role="tab" >Group Loan</a>
+                <a class="nav-link active" data-bs-toggle="pill" href="#secured1" aria-selected="true" role="tab" onclick="changeImage('assets/img/flex_image/unSecured_loan/GROUP_LOAN.webp', 'un-secured-image')">Group Loan</a>
               </li>
               <li>
-                <a class="nav-link" data-bs-toggle="pill" href="#secured2" aria-selected="false" role="tab" tabindex="-1">Personal Loan</a>
+                <a class="nav-link" data-bs-toggle="pill" href="#secured2" aria-selected="false" role="tab" tabindex="-1" onclick="changeImage('assets/img/flex_image/unSecured_loan/PERSONAL_LOAN.webp', 'un-secured-image')">Personal Loan</a>
               </li>
               <li>
-                <a class="nav-link" data-bs-toggle="pill" href="#secured3" aria-selected="false" role="tab" tabindex="-1">Business Loan</a>
+                <a class="nav-link" data-bs-toggle="pill" href="#secured3" aria-selected="false" role="tab" tabindex="-1" onclick="changeImage('assets/img/flex_image/unSecured_loan/BUSINESS_LOAN.webp', 'un-secured-image')">Business Loan</a>
               </li>
             </ul>
             <div class="tab-content">
