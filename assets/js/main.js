@@ -295,4 +295,10 @@
    */
   new PureCounter();
 
+ 
 })()
+
+function changeImage(imageURL,id) { 
+  var imageElement = document.getElementById(id);
+  imageElement.src = imageURL;
+}
